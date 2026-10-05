@@ -116,6 +116,36 @@ for i = 1 to N do
 
 Write a closed-form expression for the number of times `do_work()` is called in terms of $N$.
 
+Ans: I calculated a mathematical pattern using the above pseudocode and here's the results:
+
+The function:
+```text
+
+def Counting_numbers(n):
+    count = 0
+    for i in range(1, n+1):
+        for j in range(i, n+1):
+            count += 1
+    print("For N =", n, "count =", count)
+        
+for i in range(2, 10):
+        Counting_numbers(i)
+
+```
+The mathematical pattern:
+
+```text
+For N = 2 count = 3
+For N = 3 count = 6
+For N = 4 count = 10
+For N = 5 count = 15
+For N = 6 count = 21
+For N = 7 count = 28
+For N = 8 count = 36
+For N = 9 count = 45
+```
+Therefore, The number of times `do_work()` gets called is `n(n+1)/2`. 
+
 2. Analyze the exact number of times the `do_work()` function is called in the following pseudocode, assuming $N \ge 1$.
 
 ```
@@ -130,7 +160,7 @@ If $N=16$, how many times is `do_work()` called?
 
 **Answer**: 31
 
-**Justification**:
+**Justification**: If we assume `N` is `16`, then it keeps getting divided by `2` inside the while loop until it satisfies the condition `i > 0`. Therefore, we have `16+8+4+2+1 = 31` times the function is called.
 
 ## Greedy Algorithms
 
