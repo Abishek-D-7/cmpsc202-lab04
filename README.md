@@ -38,7 +38,7 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: No
 
-**Justification**: Any algorithm can grow at any size along with time, i.e. there exists such algorithm which grows exponentially with time and we can put an fixed upper bound on such algorithms.
+**Justification**: Any algorithm can grow at any size along with time, i.e. there exists such algorithm which grows exponentially with time and we cannot put an fixed upper bound on such algorithms.
 
 
 ## Data Structures
