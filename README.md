@@ -11,7 +11,9 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 1. Use the rules from lecture 07 to prove that $T(n) = 5 \log n + 7n$ is $\mathcal{O}(n)$.
 
    Step 1: we can write $7n$ as $n$ since 7 is a constant and can be dropped.
+   
    Step 2: we can then write $5logn$ as $logn$ since 5 is a constant and can be dropped.
+   
    Step 3: Finally, using summing is the max rule, we can write $T(n) = 5 \log n + 7n$  as $O(n)$ as $n$ grows faster than $logn$.
 
 3. True/False/Possibly: $T(n)$ is $\mathcal{O}(n^2)$?
