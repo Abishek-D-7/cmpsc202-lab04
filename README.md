@@ -32,13 +32,13 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: $\Omega(1)$
 
-**Justification**:
+**Justification**: This is the lowest time possible that an algorithm grows the least.
 
 5. Is there a corresponding trivial upper bound? Why or why not?
 
 **Answer**: No
 
-**Justification**:
+**Justification**: Any algorithm can grow at any size along with time, i.e. there exists such algorithm which grows exponentially with time and we can put an fixed upper bound on such algorithms.
 
 
 ## Data Structures
