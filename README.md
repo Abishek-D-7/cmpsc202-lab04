@@ -20,13 +20,13 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: Yes
 
-**Justification**:
+**Justification**: Since n^2 grows faster than n and it is the upper bound to T(n). So, we can write T(n) is O(n^2).
 
 3. True/False/Possibly: $T(n)$ is $\Omega(n \log n)$?
 
 **Answer**: No
 
-**Justification**:
+**Justification**: It's not possible for a lower bound because nlogn grows much faster than n and we know T(n) is $theta(n)$.
 
 4. For any algorithm, we can give a trivial lower bound. What is that lower bound?
 
